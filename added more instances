@@ -1,4 +1,6 @@
 
+# Online Python - IDE, Editor, Compiler, Interpreter
+
 class Cars:
     def __init__(self, name, make, model):
         self.name = name
@@ -12,5 +14,5 @@ american = Cars("Ford", "Raptor", 2024)
 european = Cars("VW", "Golf 8", 2024)
 
 print(asian.name, asian.make, asian.model)
-print(american.model)
-print(european.make)
+print(american.name, american.make, american.model)
+print(european.name, european.make, european.model)
